@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825889109195",
+    "project_id": "eazyearnquizie",
+    "storage_bucket": "eazyearnquizie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825889109195:android:89f1ab6acf4b9c565bd74e",
+        "android_client_info": {
+          "package_name": "com.rishipm.earneasyquizie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825889109195-64brpmntfp3adkh2fmvcom4mq59vnghj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDErTMrHk8C2xHqtiGjfUDA7JHbPUWZxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825889109195-64brpmntfp3adkh2fmvcom4mq59vnghj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

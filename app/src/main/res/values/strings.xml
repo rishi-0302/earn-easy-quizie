@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Earn Easy Quizie</string>
+    <string name="create_account">Create Acccount</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="submit">Submit</string>
+    <string name="sign_in">Sign in</string>
+    <string name="by_sighing_in_we_will_consider_that_you_are_agree_nto_the_terms_and_conditions">By Sighing in we will consider that you are agree \nto the Terms and conditions</string>
+    <string name="instrictions">Instrictions</string>
+    <string name="play_easy_quiz">- Play Easy Quiz</string>
+    <string name="start_earning">- Start Earning</string>
+    <string name="coleect_coins">- Coleect Coins</string>
+    <string name="choose_category">- Choose Category</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">logout</string>
+</resources>

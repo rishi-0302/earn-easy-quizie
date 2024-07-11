@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="20dp"
+    android:background="@color/light_gray"
+    android:paddingEnd="20dp"
+    tools:context=".Activities.Fragments.ProfileFragment">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/userprofile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_purp"
+        android:drawableLeft="@drawable/ic_email_purple"
+        android:drawablePadding="10dp"
+        android:ems="15"
+        android:fontFamily="@font/alata"
+        android:hint="Email Address"
+        android:textIsSelectable="false"
+        android:inputType="textPersonName"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image"
+        app:layout_constraintStart_toStartOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_purp"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_purple"
+        android:drawablePadding="10dp"
+        android:ems="15"
+        android:fontFamily="@font/alata"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/edt_mail"
+        app:layout_constraintStart_toStartOf="@+id/edt_mail"
+        app:layout_constraintTop_toBottomOf="@+id/edt_mail" />
+
+
+    <TextView
+        android:id="@+id/tv_updateProfile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg2"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_marginTop="32sp"
+        android:text="Update Profile"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/edtName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edtName"
+        app:layout_constraintTop_toBottomOf="@+id/edtName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

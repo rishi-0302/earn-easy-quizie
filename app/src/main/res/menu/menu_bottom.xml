@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_"
+        android:iconTint="@color/white"
+        android:title="Home" />
+    <item
+        android:id="@+id/ranking"
+        android:icon="@drawable/ranking_"
+        android:iconTint="@color/white"
+        android:title="Rank" />
+    <item
+        android:id="@+id/Wallet"
+        android:icon="@drawable/wallet___"
+        android:iconTint="@color/white"
+        android:title="Wallet" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profileticksvgrepo_com"
+        android:iconTint="@color/white"
+        android:title="Profile" />
+
+</menu>
